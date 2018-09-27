@@ -10,9 +10,9 @@ public class SearchBar extends JPanel {
 
 	public SearchBar() {
 
-		logo = new JButton(new ImageIcon("C://img//logo.png")); // 로고
+		logo = new JButton(new ImageIcon("c:\\data\\logo.png")); // 로고
 		tf = new JTextField();// 검색창
-		search = new JButton(new ImageIcon("C://img//search.png")); // 검색 버튼
+		search = new JButton(new ImageIcon("c:\\data\\search.png")); // 검색 버튼
 		lb = new JLabel(""); // 사용자 이름
 		lb.setForeground(Color.white);
 		lb.setFont(new Font("돋음", Font.BOLD, 25));

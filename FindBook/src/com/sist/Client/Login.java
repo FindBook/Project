@@ -12,7 +12,7 @@ public class Login extends JPanel {
 
 	public Login() {
 
-		back = Toolkit.getDefaultToolkit().getImage("C://img//mainpage.jpg");
+		back = Toolkit.getDefaultToolkit().getImage("c:\\data\\mainpage.jpg");
 
 		// 배치
 		la1 = new JLabel("아이디");

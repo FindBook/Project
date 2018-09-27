@@ -11,7 +11,7 @@ public class BookData {
 	public static ArrayList<BookVO> mList = new ArrayList<BookVO>();
 	static {
 		try {
-			FileInputStream fr = new FileInputStream("c:\\javaDev\\booklist.txt");
+			FileInputStream fr = new FileInputStream("c:\\data\\booklist.txt");
 			BufferedReader br = new BufferedReader(new InputStreamReader(fr));
 			while (true) {
 				String str = br.readLine();

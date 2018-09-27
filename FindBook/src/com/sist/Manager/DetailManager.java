@@ -138,10 +138,10 @@ public class DetailManager {
 		}
 
 		try {
-			File f = new File("C:\\javaDev\\booklist.txt");
+			File f = new File("c:\\data\\booklist.txt");
 			if (f.exists())
 				f.delete();
-			FileWriter fw = new FileWriter("C:\\javaDev\\booklist.txt", true);
+			FileWriter fw = new FileWriter("c:\\data\\booklist.txt", true);
 			// true가없으면 다 덮어써서 맨 마지막 데이터만 나옴(append)
 			// 내용갱신할땐 true주면안됨
 			for (BookVO vo : list) {
